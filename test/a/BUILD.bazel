@@ -5,7 +5,7 @@ kt_jvm_test(
     srcs = [
         "ATest.kt",
     ],
-    test_class = "example.ATest",
+    test_class = "a.ATest",
     deps = [
         "@maven//:junit_junit_4_13_1",
     ],
